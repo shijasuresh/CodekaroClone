@@ -6,7 +6,56 @@
     <title>Codekaro Clone</title>
     <link href="./css/style.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="text-xl mx-auto">Welcome</h1>
+<body class="m-0 font-sans">
+    
+    <!-- header -->
+     <div class="flex justify-between w-[90%] items-center mx-auto mt-2">
+        <div class="flex gap-4 items-center">
+            <p class="font-bold text-xl">Codekaro</p>
+            <p class="text-neutral-600">Free Classes</p>
+            <p class="text-neutral-600">Course</p>
+            <p class="text-neutral-600">About us</p>
+        </div>
+        <div>
+            <img src="./assets/Profile.png" alt="" class="w-10 h-10 rounded-full object-cover">
+        </div>
+     </div>
+
+     <!-- help '?' fixed div -->
+     <div class="fixed flex items-center justify-center w-12 h-12 rounded-full bg-black bottom-6 right-6 text-white">
+        <p class="text-xl">?</p>
+     </div>
+
+     <!-- centre main img -->
+      <div class="w-[90%] flex items-center justify-center mx-auto mt-10 h-72">
+        <img src="./assets/girl.png" alt="" class="h-full animate-shake">
+      </div>
+
+      <!-- centre main text div -->
+       <div class="flex justify-center items-center flex-wrap flex-col mx-auto mt-3 w-[50%] text-center">
+        <h1 class="text-5xl font-extrabold">Improve your coding skills with <span class="text-gradient">live Coding classes</span></h1>
+        <p class="mt-2 text-xl font-normal">There are 72M students learning to code around the world. We try to make learning more accessible, equitable and more seamless for them.</p>
+        <button class="bg-black text-white mt-2 w-56 px-6 py-1 text-lg rounded-md">Start learning for free</button>
+       </div>
+
+       <!-- second div -->
+       <div class="flex justify-center items-center flex-wrap flex-col mx-auto mt-6 w-[50%] text-center">
+        <h1 class="text-4xl font-extrabold">Learn what fascinates you for free</span></h1>
+        <p class="mt-2 text-xl font-normal">Here's what some of our 407 satisfied students have to say about learning with codekaro.</p>
+       </div>
+
+       <!-- single box model -->
+        <div class="flex justify-center items-center mx-auto mt-16 w-[50%] text-center">
+            <div class="rounded-lg border-neutral-300 border w-72 mx-auto rotate-slow shadow-lg bg-white">
+                <img src="./assets/ml_masterclass.png" alt="" class="rounded-t-lg w-full">
+                <div class="flex flex-col justify-start items-start p-4">
+                    <p class="my-1 text-xl">Machine Learning Bootcamp</p>
+                    <p>From Sat, 12 Mar <span class="text-neutral-500">at 06:00 PM</span></p>
+                    <p>Schedule: 06:00 to 07:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 50px;"></div>
 </body>
 </html>
